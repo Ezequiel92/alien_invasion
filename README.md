@@ -1,6 +1,6 @@
 # 👾 Alien invasion
 
-[![ForTheBadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![ForTheBadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![GitHub](https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat-square)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)](mailto:lozano.ez@gmail.com)
 
