@@ -693,9 +693,17 @@ if __name__ == "__main__":
         main_path = ""
         os.chdir(os.path.dirname(sys.executable))
 
+        # Create `user_data` folder if it does not exist.
+        if not os.path.exists('user_data'):
+            os.makedirs('user_data')
+
     else:
 
         main_path = "src/"
+
+        # Create `src/user_data` folder if it does not exist.
+        if not os.path.exists('src/user_data'):
+            os.makedirs('src/user_data')
 
     while True:
 

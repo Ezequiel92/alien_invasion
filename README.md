@@ -2,7 +2,7 @@
 
 [![ForTheBadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-[![GitHub](https://img.shields.io/github/license/Ezequiel92/BiblographyFormatter?style=flat-square)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)](mailto:lozano.ez@gmail.com)
+[![GitHub](https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat-square)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)](mailto:lozano.ez@gmail.com)
 
 A 2D game made with the [pygame](https://www.pygame.org/) library and heavily based in the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course 2ed_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes, with some added features:
 
@@ -46,11 +46,12 @@ To create a portable version of your own, do as follows:
 
 * Within the game folder, run: 
 
-  ```bash
+  ```sh
   pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.spec
   ```
   
-  (pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file provides the instructions to pyinstaller).
+  pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
+
 * The executable will be saved in the folder `binary/alien_invasion`, along with all the necessary dependencies.
 * The `binary/TEMP` folder can be deleted and the executable should work in any system like the one you use to run `pyinstaller`.
 

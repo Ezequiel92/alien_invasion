@@ -299,10 +299,6 @@ def _get_saved_game_key(saved_game):
     date = saved_game[-17:]
     username = saved_game[:-17].rstrip()
 
-    print(date, "\n")
-    print(username, "\n")
-    print(saved_game[:-17].rstrip(' '), "\n")
-
     return f"{username}({date})"
 
 
