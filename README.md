@@ -36,7 +36,7 @@ The maximum level is 100, if you reach it, you win the game. Because the score f
 * Press **p** to pause or resume the game.
 * Press **q** to quit the game and return to the main menu.
 
-## 🖥️ Requirements
+## 🖥️ Setup
 
 To run the game from the source, just run `src/alien_inavasion.py`. The dependencies are given by the `requirements.txt`.
 
@@ -55,10 +55,10 @@ To create a portable version of your own, do as follows:
 * The executable will be saved in the folder `binary/alien_invasion`, along with all the necessary dependencies.
 * The `binary/TEMP` folder can be deleted and the executable should work in any system like the one you use to run `pyinstaller`.
 
-## Game assets
+## ⚙️ Game assets
 
 * 🖼️ All images (BMP) are from the [book website](https://ehmatthes.github.io/pcc_2e/).
-* 🔊 All the sounds (WAV) are from [freesound.org](https://freesound.org/): 
+* 🎵 All the sounds (WAV) are from [freesound.org](https://freesound.org/): 
   * [laser](https://freesound.org/people/jobro/sounds/35684/)
   * [fail_shot](https://freesound.org/people/KlawyKogut/sounds/154934/)
   * [click](https://freesound.org/people/stijn/sounds/43676/)
