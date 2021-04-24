@@ -50,10 +50,10 @@ To create a portable version of your own, do as follows:
   pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.spec
   ```
   
-  pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
-
-* The executable will be saved in the folder `binary/alien_invasion`, along with all the necessary dependencies.
-* The `binary/TEMP` folder can be deleted and the executable should work in any system like the one you use to run `pyinstaller`.
+  * pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
+  * The executable will be saved in the folder `binary/alien_invasion`, along with all the necessary dependencies.
+  * The `binary/TEMP` folder can be deleted.
+  * The executable now should work in any system like the one in which you run `pyinstaller`.
 
 ## ⚙️ Game assets
 

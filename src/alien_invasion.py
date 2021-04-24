@@ -2,6 +2,7 @@ import sys
 import json
 import os
 
+from pathlib import Path
 from time import sleep
 from datetime import datetime
 
@@ -690,20 +691,19 @@ if __name__ == "__main__":
 
     if getattr(sys, "frozen", False):
 
+        # If inside an executable set the correct parent directory.
         main_path = ""
-        os.chdir(os.path.dirname(sys.executable))
+        os.chdir(Path(sys.executable).parent)
 
         # Create `user_data` folder if it does not exist.
-        if not os.path.exists('user_data'):
-            os.makedirs('user_data')
+        Path('user_data').mkdir(parents=True, exist_ok=True)
 
     else:
 
         main_path = "src/"
 
         # Create `src/user_data` folder if it does not exist.
-        if not os.path.exists('src/user_data'):
-            os.makedirs('src/user_data')
+        Path('src/user_data').mkdir(parents=True, exist_ok=True)
 
     while True:
 
