@@ -70,18 +70,16 @@ python ./src/alien_inavasion.py
 
 The game can be compiled into a binary file with the [pyinstaller](https://www.pyinstaller.org/) library. An already compiled version for Windows 10 is provided in the `alien_invasion.zip` file. The `.exe` within should work in any Windows 10 machine.
 
-To create a portable version of your own, do as follows:
-
-* Within the game folder, run: 
+To create a portable version of your own, run (within the game folder)
 
 ```sh
 pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.spec
-```
+```  
 
- * pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
- * The executable will be saved in the folder `binary/alien_invasion/`, along with all the necessary dependencies.
- * The `binary/TEMP` folder can be deleted.
- * The executable now should work in any system like the one in which you run `pyinstaller`.
+* pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
+* The executable will be saved in the folder `binary/alien_invasion/`, along with all the necessary dependencies.
+* The `binary/TEMP` folder can be deleted.
+* The executable now should work in any system like the one in which you run `pyinstaller`.
 
 ## ⚙️ Game assets
 
