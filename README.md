@@ -68,6 +68,12 @@ To create a portable version of your own, do as follows:
 
 The rest of the game assets are rendered by `pygame` on the fly.
 
+## 📣 Contact
+
+[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lozano.ez@gmail.com)
+
+[![image](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:lozano.ez@outlook.com)
+
 ## ⚠️ Warning
 
 This game is written as an exercise and may break at any moment. So, no guarantees are given.
