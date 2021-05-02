@@ -19,8 +19,6 @@ This game resembles the classic [Space Invaders](https://en.wikipedia.org/wiki/S
 
 You can control the ship's horizontal position and shoot bullets (up to three bullets on screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet is eliminated, you go to the next level, and a new fleet appears and starts descending faster.
 
-The game stores locally the users, scores, saved games, and the ranking in `.json` files.
-
 ## 🕹️ Controls and shortcuts
 
 ### Gameplay
@@ -39,6 +37,8 @@ The game stores locally the users, scores, saved games, and the ranking in `.jso
 * Trailing and leading whitespaces will be ignored in usernames, so "User_1" and " User_1 " will be considered the same and will be stored as "User_1".
 
 * The maximum level is 100, if you reach it, you win the game. Because the score for ending the game is fixed, whoever wins the game first (with all 3 lives left) will forever be in first place of the local ranking.
+
+* The game stores locally the users, scores, saved games, and the ranking in `.json` files.
 
 ## 🖥️ Setup
 
