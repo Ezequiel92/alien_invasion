@@ -6,7 +6,7 @@
 
 A 2D game made with the [pygame](https://www.pygame.org/) library and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
 
-* Initial menu to choose between playing the game, seeing a ranking of users according to their scores, or loading saved games.
+* Initial menu to choose between playing a new game, loading a saved game, or seeing a ranking of users according to their scores.
 * Menu to choose between full screen or a floating window.
 * Menu to choose the level of difficulty.
 * Menu to create a user, play as an already created user or play anonymously.
@@ -15,9 +15,9 @@ A 2D game made with the [pygame](https://www.pygame.org/) library and based on t
 
 ## 🚀 Description
 
-This game resembles the clasic [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) from the 70'.
+This game resembles the classic [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) from the 70'.
 
-You can control the ship's left and right position and shoot bullets (up to three bullets on screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet is eliminated, you go to the next level, and a new fleets apears and start descending faster.
+You can control the ship's horizontal position and shoot bullets (up to three bullets on screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet is eliminated, you go to the next level, and a new fleet appears and starts descending faster.
 
 The game stores locally the users, scores, saved games, and the ranking in `.json` files.
 
@@ -38,7 +38,7 @@ The game stores locally the users, scores, saved games, and the ranking in `.jso
 
 * Trailing and leading whitespaces will be ignored in usernames, so "User_1" and " User_1 " will be considered the same and will be stored as "User_1".
 
-* The maximum level is 100, if you reach it, you win the game. Because the score for ending the game is fixed, whoever wins the game first (with all 3 lives left) will forever be in the first place of the local ranking.
+* The maximum level is 100, if you reach it, you win the game. Because the score for ending the game is fixed, whoever wins the game first (with all 3 lives left) will forever be in first place of the local ranking.
 
 ## 🖥️ Setup
 
