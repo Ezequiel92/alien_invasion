@@ -36,9 +36,9 @@ The game stores locally the users, scores, saved games, and the ranking in `.jso
 
 ## ℹ️ Some things to note
 
-Trailing and leading whitespaces will be ignored in usernames, so "User_1" and " User_1 " will be considered the same and will be stored as "User_1".
+* Trailing and leading whitespaces will be ignored in usernames, so "User_1" and " User_1 " will be considered the same and will be stored as "User_1".
 
-The maximum level is 100, if you reach it, you win the game. Because the score for ending the game is fixed, whoever wins the game first (with all 3 lives left) will forever be in the first place of the local ranking.
+* The maximum level is 100, if you reach it, you win the game. Because the score for ending the game is fixed, whoever wins the game first (with all 3 lives left) will forever be in the first place of the local ranking.
 
 ## 🖥️ Setup
 
@@ -77,11 +77,11 @@ To create a portable version of your own, do as follows:
 ```sh
 pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.spec
 ```
-  
-    * pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
-    * The executable will be saved in the folder `binary/alien_invasion/`, along with all the necessary dependencies.
-    * The `binary/TEMP` folder can be deleted.
-    * The executable now should work in any system like the one in which you run `pyinstaller`.
+
+ * pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
+ * The executable will be saved in the folder `binary/alien_invasion/`, along with all the necessary dependencies.
+ * The `binary/TEMP` folder can be deleted.
+ * The executable now should work in any system like the one in which you run `pyinstaller`.
 
 ## ⚙️ Game assets
 
