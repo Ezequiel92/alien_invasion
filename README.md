@@ -6,18 +6,18 @@
 
 A 2D game made with the [pygame](https://www.pygame.org/) library and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
 
-* Initial menu to choose between playing a new game, loading a saved game, or seeing a ranking of users according to their scores.
-* Menu to choose between full screen or a floating window.
+* Initial menu to choose between playing a new game, loading a saved game, or seeing a ranking of users.
+* Menu to choose between playing with full screen or with a floating window.
 * Menu to choose the level of difficulty.
 * Menu to create a user, play as an already created user or play anonymously.
-* You can pause the game, and then resume, quit or save.
+* You can pause the game, and then resume, quit or save it.
 * Sound effects.
 
 ## 🚀 Description
 
 This game resembles the classic [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) from the 70'.
 
-You can control the ship's horizontal position and shoot bullets (up to three bullets on screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet is eliminated, you go to the next level, and a new fleet appears and starts descending faster.
+You can control the ship's horizontal position and shoot bullets (up to three bullets on screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet of aliens is eliminated, you go to the next level. In each level the fleet descends faster than in the previous one.
 
 ## 🕹️ Controls and shortcuts
 
@@ -56,15 +56,15 @@ To run the game from source
 cd path/to/alien_invasion
 ```
 
-* Inside the Python REPL install the dependencies given by the `requirements.txt` file
+* Install the dependencies given by the `requirements.txt` file
 
-```python
+```
 pip install -r requirements.txt
 ```
 
-* Run
+* Run the game
 
-```python
+```
 python ./src/alien_inavasion.py
 ```
 
@@ -77,9 +77,9 @@ pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.
 ```  
 
 * pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
-* The executable will be saved in the folder `binary/alien_invasion/`, along with all the necessary dependencies.
+* The executable will be saved inside the folder `binary/alien_invasion/`, along with all the necessary dependencies.
 * The `binary/TEMP` folder can be deleted.
-* The executable now should work in any system like the one in which you run `pyinstaller`.
+* The executable should work in any system like the one in which you run `pyinstaller`.
 
 ## ⚙️ Game assets
 
