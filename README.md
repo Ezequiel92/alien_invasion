@@ -102,4 +102,4 @@ The rest of the game assets are rendered by `pygame` on the fly.
 
 ## ⚠️ Warning
 
-This game is written as an exercise and may break at any moment. So, no guarantees are given.
+This game is written as an exercise and may break at any moment. So, use it at your own risk.
