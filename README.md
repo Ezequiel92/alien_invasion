@@ -2,7 +2,7 @@
 
 [![ForTheBadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![GitHub](https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat-square)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)](mailto:lozano.ez@gmail.com)
+[![GitHub](https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat&logo=GNU&labelColor=2B2D2F)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat)](mailto:lozano.ez@gmail.com)
 
 A 2D game made with the [pygame](https://www.pygame.org/) library and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
 
