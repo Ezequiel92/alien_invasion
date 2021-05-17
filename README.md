@@ -2,7 +2,7 @@
 
 [![ForTheBadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![GitHub](https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat&logo=GNU&labelColor=2B2D2F)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat)](mailto:lozano.ez@gmail.com)
+[![GitHub](https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat&logo=GNU&labelColor=2B2D2F)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat)](mailto:elozano@df.uba.ar)
 
 A 2D game made with the [pygame](https://www.pygame.org/) library and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
 
@@ -93,12 +93,6 @@ pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.
     * [game_won](https://freesound.org/people/LittleRobotSoundFactory/sounds/270404/)
 
 The rest of the game assets are rendered by `pygame` on the fly.
-
-## 📣 Contact
-
-[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lozano.ez@gmail.com)
-
-[![image](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:lozano.ez@outlook.com)
 
 ## ⚠️ Warning
 
