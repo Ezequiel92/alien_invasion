@@ -1,8 +1,16 @@
-# 👾 Alien invasion
+<div align="center">
+    <h1>👾 Alien invasion</h1>
+</div>
 
-[![ForTheBadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+<p align="center">
+    <a href="https://www.python.org/"><img src="https://forthebadge.com/images/badges/made-with-python.svg"></a>
+</p>
 
-[![GitHub](https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat&logo=GNU&labelColor=2B2D2F)](https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE) [![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat)](mailto:elozano@df.uba.ar)
+<p align="center">
+    <a href="https://github.com/Ezequiel92/alien_invasion/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Ezequiel92/alien_invasion?style=flat&logo=GNU&labelColor=2B2D2F"></a>
+    <a href="mailto:elozano@df.uba.ar"><img src="https://img.shields.io/maintenance/yes/2021?style=flat&labelColor=2B2D2F"></a>
+    <a href="https://www.codefactor.io/repository/github/ezequiel92/alien_invasion"><img src="https://img.shields.io/codefactor/grade/github/ezequiel92/alien_invasion?style=flat&logo=CodeFactor&labelColor=2B2D2F"></a>
+</p>
 
 A 2D game made with the [pygame](https://www.pygame.org/) library and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
 
