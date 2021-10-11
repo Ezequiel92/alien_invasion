@@ -1,5 +1,5 @@
 ﻿altgraph==0.17.2
-certifi==2021.5.30
+certifi==2021.10.8
 future==0.18.2
 macholib==1.15.2
 pefile==2021.9.3
