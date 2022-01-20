@@ -82,7 +82,7 @@ To create a portable version of your own, run (within the game folder)
 
 ```sh
 pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.spec
-```  
+```
 
 * pyinstaller is in the `requirements.txt` as a dependency and the `.spec` file is provided.
 * The executable will be saved inside the folder `binary/alien_invasion/`, along with all the necessary dependencies.
@@ -93,12 +93,12 @@ pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.
 
 * 🖼️ All images (BMP format) are from the [book website](https://ehmatthes.github.io/pcc_2e/).
 * 🎵 All the sounds (WAV format) are from [freesound.org](https://freesound.org/): 
-    * [laser](https://freesound.org/people/jobro/sounds/35684/)
-    * [fail_shot](https://freesound.org/people/KlawyKogut/sounds/154934/)
-    * [click](https://freesound.org/people/stijn/sounds/43676/)
-    * [loose_ship](https://freesound.org/people/myfox14/sounds/382310/)
-    * [ambient](https://freesound.org/people/joshuaempyre/sounds/251461/)
-    * [game_won](https://freesound.org/people/LittleRobotSoundFactory/sounds/270404/)
+  * [laser](https://freesound.org/people/jobro/sounds/35684/)
+  * [fail_shot](https://freesound.org/people/KlawyKogut/sounds/154934/)
+  * [click](https://freesound.org/people/stijn/sounds/43676/)
+  * [loose_ship](https://freesound.org/people/myfox14/sounds/382310/)
+  * [ambient](https://freesound.org/people/joshuaempyre/sounds/251461/)
+  * [game_won](https://freesound.org/people/LittleRobotSoundFactory/sounds/270404/)
 
 The rest of the game assets are rendered by `pygame` on the fly.
 
