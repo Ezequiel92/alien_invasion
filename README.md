@@ -11,12 +11,12 @@
     <a href="https://www.codefactor.io/repository/github/ezequiel92/alien_invasion"><img src="https://img.shields.io/codefactor/grade/github/ezequiel92/alien_invasion?style=flat&logo=CodeFactor&labelColor=2B2D2F"></a>
 </p>
 
-A 2D game made with the [pygame](https://www.pygame.org/) library and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
+A 2D game made with [pygame](https://www.pygame.org/) and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
 
-* Initial menu to choose between playing a new game, loading a saved game, or seeing a ranking of users.
-* Menu to choose between playing with full screen or with a floating window.
-* Menu to choose the level of difficulty.
-* Menu to create a user, play as an already created user or play anonymously.
+* Initial menu to choose between playing a new game, loading a saved game, or seeing a the ranking of players.
+* Menu to choose between playing with at full screen or in window mode.
+* Menu to choose the difficulty level.
+* Menu to create an user, play as an already created user or play anonymously.
 * You can pause the game, and then resume, quit or save it.
 * Sound effects.
 
@@ -24,7 +24,7 @@ A 2D game made with the [pygame](https://www.pygame.org/) library and based on t
 
 This game resembles the classic [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) from the 70'.
 
-You can control the ship's horizontal position and shoot bullets (up to three bullets on screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet of aliens is eliminated, you go to the next level. In each level the fleet descends faster than in the previous one.
+You can control the ship's horizontal position and shoot bullets (there can be up to three bullets on the screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet of aliens is eliminated, you go to the next level. In each new level the fleet descends faster.
 
 ## 🕹️ Controls and shortcuts
 
@@ -41,11 +41,11 @@ You can control the ship's horizontal position and shoot bullets (up to three bu
 
 ## ℹ️ Some things to note
 
-* Trailing and leading whitespaces will be ignored in usernames, so "User_1" and " User_1 " will be considered the same and will be stored as "User_1".
+* Trailing and leading white spaces will be ignored in usernames, so "User_1" and " User_1 " will be considered the same and will be stored as "User_1".
 
-* The maximum level is 100, if you reach it, you win the game. Because the score for ending the game is fixed, whoever wins the game first (with all 3 lives left) will forever be in first place of the local ranking.
+* The maximum level is 100, if you reach it, you win the game. Because the score for ending the game is fixed, whoever wins the game first (with all 3 lives left) will have the first place in the ranking.
 
-* The game stores locally the users, scores, saved games, and the ranking in `.json` files.
+* The game stores locally the users, their scores, their saved games, and the ranking in `.json` files.
 
 ## 🖥️ Setup
 
@@ -65,17 +65,17 @@ cd path/to/alien_invasion
 
 * Install the dependencies given by the `requirements.txt` file
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 * Run the game
 
-```
+```bash
 python ./src/alien_inavasion.py
 ```
 
-The game can be compiled into a binary file with the [pyinstaller](https://www.pyinstaller.org/) library. An already compiled version for Windows 10 is provided in the `alien_invasion.zip` file. The `.exe` within should work in any Windows 10 machine.
+The game can be compiled into a binary file with the [pyinstaller](https://www.pyinstaller.org/) library. An already compiled version for Windows 10/11 is provided in the `alien_invasion.zip` file. The `.exe` within should work in any Windows 10/11 machine.
 
 To create a portable version of your own, run (within the game folder)
 
@@ -90,8 +90,8 @@ pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.
 
 ## ⚙️ Game assets
 
-* 🖼️ All images (BMP format) are from the [book website](https://ehmatthes.github.io/pcc_2e/).
-* 🎵 All the sounds (WAV format) are from [freesound.org](https://freesound.org/): 
+* 🖼️ All images (.bmp) are from the [book website](https://ehmatthes.github.io/pcc_2e/).
+* 🎵 All the sounds (.wav) are from [freesound.org](https://freesound.org/):
   * [laser](https://freesound.org/people/jobro/sounds/35684/)
   * [fail_shot](https://freesound.org/people/KlawyKogut/sounds/154934/)
   * [click](https://freesound.org/people/stijn/sounds/43676/)
@@ -99,7 +99,7 @@ pyinstaller --clean --workpath "binary/TEMP" --distpath "binary" alien_invasion.
   * [ambient](https://freesound.org/people/joshuaempyre/sounds/251461/)
   * [game_won](https://freesound.org/people/LittleRobotSoundFactory/sounds/270404/)
 
-The rest of the game assets are rendered by `pygame` on the fly.
+All the remaining game assets are rendered by `pygame` on the fly.
 
 ## ⚠️ Warning
 
