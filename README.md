@@ -11,7 +11,7 @@
     <a href="https://www.codefactor.io/repository/github/ezequiel92/alien_invasion"><img src="https://img.shields.io/codefactor/grade/github/ezequiel92/alien_invasion?style=flat&logo=CodeFactor&labelColor=2B2D2F"></a>
 </p>
 
-A 2D game made with [pygame](https://www.pygame.org/) and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/) by Eric Matthes (2ed.), with some added features:
+A 2D game made with [pygame](https://www.pygame.org/) and based on the exercise proposed in chapters 12, 13 and 14 of [_Python Crash Course_](https://ehmatthes.github.io/pcc_2e/regular_index/) by Eric Matthes (2ed.), with some added features:
 
 * Initial menu to choose between playing a new game, loading a saved game, or seeing a the ranking of players.
 * Menu to choose between playing with at full screen or in window mode.
