@@ -1,7 +1,7 @@
 ﻿altgraph==0.17.2
 certifi==2022.6.15
 future==0.18.2
-macholib==1.16
+macholib==1.16.2
 pefile==2022.5.30
 pip==22.2.2
 pygame==2.1.2
