@@ -6,7 +6,7 @@ pefile==2022.5.30
 pip==22.2.2
 pygame==2.1.2
 pyinstaller==5.4.1
-pyinstaller-hooks-contrib==2022.10
+pyinstaller-hooks-contrib==2022.11
 pywin32==304
 pywin32-ctypes==0.2.0
 setuptools==65.4.1
