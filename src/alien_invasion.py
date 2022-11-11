@@ -1,27 +1,24 @@
-import sys
 import json
 import os
-
+import sys
+from datetime import datetime
 from pathlib import Path
 from time import sleep
-from datetime import datetime
 
 import pygame
 from pygame.mixer import Sound
 
-# Data structures
-from settings import Settings
-from game_stats import GameStats
-
-# Graphic assets
-from ship import Ship
-from bullet import Bullet
 from alien import Alien
+from bullet import Bullet
 from button import Button
-from scoreboard import Scoreboard
-
+from game_stats import GameStats
 # Configuration menu
 from ini_config import conff_menu
+from scoreboard import Scoreboard
+# Data structures
+from settings import Settings
+# Graphic assets
+from ship import Ship
 
 
 class AlienInvasion:
@@ -31,9 +28,9 @@ class AlienInvasion:
         """Initialize the game, and create game resources"""
         pygame.init()
 
-        ####################################################################################
+        ############################################################################################
         # System configuration
-        ####################################################################################
+        ############################################################################################
 
         # Current user.
         self.user = configuration[0]
@@ -65,9 +62,9 @@ class AlienInvasion:
         # Create a Scoreboard to display score and level data on the screen.
         self.sb = Scoreboard(self)
 
-        ####################################################################################
+        ############################################################################################
         # Game assets.
-        ####################################################################################
+        ############################################################################################
 
         # Load sound effects.
         self._load_sound_effects()
@@ -85,9 +82,9 @@ class AlienInvasion:
             # Create the fleet of aliens if this is a new game.
             self._create_fleet()
 
-        ####################################################################################
+        ############################################################################################
         # Load saved game state
-        ####################################################################################
+        ############################################################################################
 
         if self.saved_game:
             saved_game = configuration[3]
@@ -112,9 +109,9 @@ class AlienInvasion:
             self.ship.rect.x = int(self.ship.x)
             self._get_saved_fleet(saved_game["aliens"], self.aliens)
 
-        ####################################################################################
+        ############################################################################################
         # Buttons
-        ####################################################################################
+        ############################################################################################
 
         # Play button.
         self.play_button = Button(
@@ -153,9 +150,9 @@ class AlienInvasion:
                 pos_y=self.screen_rect.centery,
             )
 
-    ########################################################################################
+    ################################################################################################
     # Set-up functions
-    ########################################################################################
+    ################################################################################################
 
     def _get_saved_fleet(self, saved_fleet, new_fleet):
         """Load saved alien fleet"""
@@ -227,9 +224,9 @@ class AlienInvasion:
         alien.rect.x = alien.x
         self.aliens.add(alien)
 
-    ########################################################################################
+    ################################################################################################
     # Run-time functions
-    ########################################################################################
+    ################################################################################################
 
     def run_game(self):
         """Start the main loop for the game"""
@@ -283,9 +280,9 @@ class AlienInvasion:
 
         pygame.display.flip()
 
-    ########################################################################################
+    ################################################################################################
     # User-actions functions
-    ########################################################################################
+    ################################################################################################
 
     def _check_events(self):
         """Respond to keypresses and mouse events"""
@@ -382,9 +379,9 @@ class AlienInvasion:
             self.click_sound.play()
             return self._exit_game()
 
-    ########################################################################################
+    ################################################################################################
     # Start-stop game functions
-    ########################################################################################
+    ################################################################################################
 
     def _start_game(self):
         """Starts a new game"""
@@ -683,9 +680,9 @@ class AlienInvasion:
                 break
 
 
-############################################################################################
+####################################################################################################
 # Main
-############################################################################################
+####################################################################################################
 
 if __name__ == "__main__":
 
@@ -696,14 +693,14 @@ if __name__ == "__main__":
         os.chdir(Path(sys.executable).parent)
 
         # Create `user_data` folder if it does not exist.
-        Path('user_data').mkdir(parents=True, exist_ok=True)
+        Path("user_data").mkdir(parents=True, exist_ok=True)
 
     else:
 
         main_path = "src/"
 
         # Create `src/user_data` folder if it does not exist.
-        Path('src/user_data').mkdir(parents=True, exist_ok=True)
+        Path("src/user_data").mkdir(parents=True, exist_ok=True)
 
     while True:
 

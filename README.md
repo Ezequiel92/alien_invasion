@@ -22,7 +22,7 @@ A 2D game made with [pygame](https://www.pygame.org/) and based on the exercise 
 
 ## 🚀 Description
 
-This game resembles the classic [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) from the 70'.
+This game resembles the classic [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders).
 
 You can control the ship's horizontal position and shoot bullets (there can be up to three bullets on the screen at any time). When a bullet hits an alien, it disappears and you get points. When the whole fleet of aliens is eliminated, you go to the next level. In each new level the fleet descends faster.
 
