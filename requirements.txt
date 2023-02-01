@@ -1,6 +1,6 @@
 ﻿altgraph==0.17.3
 certifi==2022.12.7
-future==0.18.2
+future==0.18.3
 macholib==1.16.2
 pefile==2022.5.30
 pip==22.3.1
