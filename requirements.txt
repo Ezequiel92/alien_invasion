@@ -4,7 +4,7 @@ future==0.18.3
 macholib==1.16.2
 pefile==2023.2.7
 pip==23.0.1
-pygame==2.1.2
+pygame==2.2.0
 pyinstaller==5.8.0
 pyinstaller-hooks-contrib==2023.0
 pywin32==305
