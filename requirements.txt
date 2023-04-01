@@ -1,4 +1,4 @@
-﻿altgraph==0.17.3
+altgraph==0.17.3
 certifi==2022.12.7
 future==0.18.3
 macholib==1.16.2
@@ -9,6 +9,6 @@ pyinstaller==5.8.0
 pyinstaller-hooks-contrib==2023.0
 pywin32==305
 pywin32-ctypes==0.2.0
-setuptools==67.4.0
+setuptools==67.6.1
 wheel==0.38.4
 wincertstore==0.2
