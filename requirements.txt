@@ -3,7 +3,7 @@ certifi==2023.7.22
 future==0.18.3
 macholib==1.16.2
 pefile==2023.2.7
-pip==23.1.2
+pip==23.2.1
 pygame==2.5.0
 pyinstaller==5.13.0
 pyinstaller-hooks-contrib==2023.4
