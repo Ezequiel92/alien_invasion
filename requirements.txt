@@ -9,6 +9,6 @@ pyinstaller==6.9.0
 pyinstaller-hooks-contrib==2024.7
 pywin32==306
 pywin32-ctypes==0.2.2
-setuptools==70.1.1
+setuptools==72.1.0
 wheel==0.43.0
 wincertstore==0.2
